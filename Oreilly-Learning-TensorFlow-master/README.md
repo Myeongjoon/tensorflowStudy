@@ -2,7 +2,7 @@
 
 ### Content (book chapters):
 1.  Introduction -- no code 
-2.  Go with the Flow: Up and Running with TensorFlow
+2.  [Go with the Flow: Up and Running with TensorFlow](02__up_and_running)
 3.  Understanding TensorFlow Basics
 4.  Convolutional Neural Networks
 5.  Text I: Working with Text and Sequences, and TensorBoard Visualization.
