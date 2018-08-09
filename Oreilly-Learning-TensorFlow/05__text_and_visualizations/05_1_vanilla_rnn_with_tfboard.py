@@ -96,7 +96,7 @@ def get_linear_layer(hidden_state):
     return tf.matmul(hidden_state, Wl) + bl
 
 
-with tf.name_scope('linear_layer_weights') as scope:
+with tf.name_scope('outputs') as scope:
     # Iterate across time, apply linear layer to all RNN outputs
     all_outputs = tf.map_fn(get_linear_layer, all_hidden_states)
     # Get Last output -- h_28
